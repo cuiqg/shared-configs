@@ -1,6 +1,6 @@
 {
   "name": "@cuiqg/shared-configs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Biome config for @cuiqg",
   "type": "module",
   "publishConfig": {
