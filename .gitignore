@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+node_modules/
+
+.vercel
+
+dist

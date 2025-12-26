@@ -1,0 +1,29 @@
+{
+  "name": "@cuiqg/shared-configs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "exports": {
+    "./biome": "./dist/biome.json"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "preinstall": "npx force-resolutions",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp && npm publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.10",
+    "bumpp": "^10.3.2",
+    "gulp": "^5.0.1",
+    "gulp-rename": "^2.1.0"
+  },
+  "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
+  }
+}
