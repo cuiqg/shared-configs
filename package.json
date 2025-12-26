@@ -15,7 +15,10 @@
     "build": "gulp build --prod",
     "preinstall": "npx force-resolutions",
     "prepublishOnly": "npm run build",
-    "release": "bumpp && npm publish"
+    "release": "bumpp && npm publish",
+    "lint": "npx @biomejs/biome lint",
+    "format": "npx @biomejs/biome format",
+    "check": "npx @biomejs/biome check --reporter=summary"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.10",

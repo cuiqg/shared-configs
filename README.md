@@ -1,8 +1,8 @@
 <p align="center">
-<img width="100%" src="https://github.com/user-attachments/assets/bd6d461f-c9f2-4ab1-b72e-f00dae601309"/>
+<img width="100%" src="https://github.com/user-attachments/assets/22861a82-d000-4fe1-b005-d47eec6e5e80"/>
 </p>
 
-<details>
+<details open>
 <summary>biome.json</summary>
 
 ```json
